@@ -47,7 +47,7 @@ public class Robot extends TimedRobot {
   public void teleopPeriodic() {
     // get joystick command
     if (joy1.getRawButton(1)) {
-      setpoint = 10;
+      setpoint = 5;
     } else if (joy1.getRawButton(2)) {
       setpoint = 0;
     }
